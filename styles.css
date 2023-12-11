@@ -1,0 +1,47 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+}
+
+#container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+.game-review {
+  margin-bottom: 30px;
+}
+
+.game-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.game-rating {
+  margin-top: 10px;
+}
+
+.user-review {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #f39c12;
+}
+
+.small-image {
+  max-width: 200px;
+  height: auto;
+}

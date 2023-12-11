@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Game Mania</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <div id="container">
+    <h1>Game Mania</h1>
+
+    <game-review>
+      <h2>Red Dead Redemption 2 (RDR2)</h2>
+      <game-info>
+        <img src="rdr2.jpg" alt="Red Dead Redemption 2" class="small-image"/>
+        <p>Red Dead Redemption 2 is an action-adventure game set in the American Wild West....</p>
+      </game-info>
+      <game-rating>
+        <h3>Overall Rating: 4.8 stars</h3>
+        <p>User Reviews:</p>
+        <user-review>
+          <h4>Saul Goodman</h4>
+          <p>Amazing game with stunning graphics and immersive storyline!</p>
+          <span>5 stars</span>
+        </user-review>
+      </game-rating>
+    </game-review>
+    
+    <game-review>
+      <h2>Grand Theft Auto V (GTA V)</h2>
+      <game-info>
+        <img src="gtav.jpg" alt="Grand theft auto" class="small-image"/>
+        <p>Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. 
+        	Players complete missions—linear scenarios with set objectives—to progress through the story. 
+        	Outside of the missions, players may freely roam the open world</p>
+      </game-info>
+      <game-rating>
+        <h3>Overall Rating: 4.4 stars</h3>
+        <p>User Reviews:</p>
+        <user-review>
+          <h4>Gustavo Fring</h4>
+          <p>Rating: 5/5 I recently immersed myself in the vast and dynamic world of Grand Theft Auto V,
+          	 and I must say it's an absolute masterpiece! Rockstar Games has truly outdone themselves with this one.
+          	 The open-world of Los Santos is nothing short of breathtaking.
+          	  The attention to detail is incredible, from the bustling city streets to the serene landscapes.
+          	  Every corner feels alive, and the level of immersion is unparalleled.
+          	  The storyline is gripping, with three distinct protagonists whose lives intertwine in unexpected ways. 
+          	  The character development is top-notch, making it easy to connect with each of them. The missions are diverse, 
+          	  ranging from high-speed chases to intricate heists, keeping the gameplay fresh and exciting.</p>
+          <span>5 stars</span>
+        </user-review>
+      </game-rating>
+    </game-review>
+    
+    <game-review>
+      <h2>Ghost of Tsushima</h2>
+      <game-info>
+        <img src="ghost.jpg" alt="Ghost of Tsushima" class="small-image"/>
+        <p>This is an action game in which players assume the role of a samurai (Jin Sakai) 
+        	on a quest for vengeance against Mongol invaders in 13th century Japan. Players traverse open-world environments, 
+        	interact with characters, complete quests (e.g., assassination), and infiltrate enemy strongholds.</p>
+      </game-info>
+      <game-rating>
+        <h3>Overall Rating: 4.8 stars</h3>
+        <p>User Reviews:</p>
+        <user-review>
+          <h4>Smanga Simelane</h4>
+          <p>OMG what an incredible game!!!! I'm about fifteen hours in and GoS is an epic of an adventure. 
+          	It's the feudal Japan game we've been begging for for years!
+          	I always thought Ubisoft would deliver an AC game set in ancient Japan but Sony and SP took up that gauntlet 
+          	and delivered a gaming experience Ubi could only dream of making!</p>
+          <span>5 stars</span>
+        </user-review>
+      </game-rating>
+    </game-review>
+    
+    <game-review>
+      <h2>Assassin's Creed Mirage</h2>
+      <game-info>
+        <img src="creed.jpg" alt="Assassin's Creed Mirage" class="small-image"/>
+        <p>In this smaller scale, back to basics Assassin's caper, you play Basim, a young street thief seeking answers. 
+        	Roam the richly-detailed, reactive and vibrant streets of 9th century Baghdad, uncovering the mysteries of the past as you fight to secure your future.</p>
+      </game-info>
+      <game-rating>
+        <h3>Overall Rating: 2.8 stars</h3>
+        <p>User Reviews:</p>
+        <user-review>
+          <h4>Tyler “Grim” </h4>
+          <p>This game was a major set back from the AC games before. Don't waist the money. I'm a huge AC fan but this was a HUGE disappointment in my opinion. 
+          	Mirage should have been a separate series or its own story not a carry over of the AC franchise. </p>
+          <span>1 stars</span>
+        </user-review>
+      </game-rating>
+    </game-review>
+
+
+
+  </div>
+</body>
+</html>

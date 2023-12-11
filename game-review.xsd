@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="game-review">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="game" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="image" type="xs:string"/>
+              <xs:element name="description" type="xs:string"/>
+              <xs:element name="rating" type="xs:decimal"/>
+              <xs:element name="user-review" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="user" type="xs:string"/>
+                    <xs:element name="comment" type="xs:string"/>
+                    <xs:element name="stars" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
